@@ -23,7 +23,7 @@ const  createCalendar = () => {
         calendarDoor.appendChild(calendarDoorText);
 
         let courseNumber = i + 1;
-        let coursePath = `./courses/course-${courseNumber}.jpg`;
+        let coursePath = `./courses/course-${courseNumber}.png`;
 
         calendarDoorText.addEventListener('click', openDoor.bind(null, coursePath));
     }
