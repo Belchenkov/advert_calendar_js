@@ -21,6 +21,7 @@
     margin: 15px auto;
     background-image: url("http://alt-sector.net/uploads/posts/2012-10/1350668310_martin-aug-010990ce-7d96-456d-acc8-4f3106fe2adb.jpg");
     background-size: cover;
+    box-shadow: 6px 6px 20px gray;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(6, 1fr);
@@ -44,4 +45,5 @@
     color: #fff;
     padding: 10px;
     border: 2px solid black;
+    transition: opacity 2.5s;
 }
